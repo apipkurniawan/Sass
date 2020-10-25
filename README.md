@@ -50,7 +50,7 @@ how started :
   (aplikasi tools)
   (VSCode Extention) => Live Sass Compiler
   (Command line) : npm install -g sass
-  jika menggunakan command line, harus buka terminal dan untuk menjalankannya menggunakan command 'sass scss/main.scss css/main.css'
+  jika menggunakan command line, harus buka cmd dan untuk menjalankannya menggunakan command 'sass scss/main.scss css/main.css'
   format : sass path_main_scss path_main_css 
 
 configuration sass :

@@ -1,7 +1,7 @@
-@use 'mixin';
+@use '../sub-modules/mixin' as m;
 
 .footer ul {
-    @include mixin.inline-list();
+    @include m.inline-list();
     li {
         padding: 0.4em;
         background-color: salmon;

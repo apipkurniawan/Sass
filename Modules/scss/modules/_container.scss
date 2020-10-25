@@ -1,8 +1,8 @@
 // ketikan menggunakan @use, pastikan panggil namanya, misal:  mixin.flex-box
-@use 'mixin';
+@use '../sub-modules/mixin' as m;
 
 .container {
-    @include mixin.flex-box(row-reverse, space-evenly);
+    @include m.flex-box(row-reverse, space-evenly);
     width: 600px;
     height: 400px;
     background-color: #eeaaee;
