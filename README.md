@@ -3,7 +3,7 @@ learn about sass
 
 doc: https://sass-lang.com/
 
-Sass (Syntaxtically Awesome Style Sheet) adalah css pre processor, yg memiliki lebih banyak feature css.
+Sass (Syntactically Awesome Style Sheets) adalah css pre processor, yg memiliki lebih banyak feature css.
 
 kekurangan pada Css :
 - tidak ada variable
@@ -46,4 +46,7 @@ how started :
 - instalasi compiler sass ada beberapa pilihan :
   (VSCode Extention) => Live Sass Compiler
   (Command line) => npm install -g sass
+
+configuration sass :
+- Preferences => Settings => Live Sass Compile => Formats => edit in settings.json => "savePath": "css"
 

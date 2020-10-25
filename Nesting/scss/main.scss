@@ -1,0 +1,46 @@
+// Nesting adalah menyimpan selector css didalam selector css yang lain
+
+// simple nesting
+// .main {
+//     background-color: lightblue;
+    
+//     .main-heading {
+//         font-size: 2em;
+//     }
+        
+//     .main-paragraph {
+//         font-size: 3em;
+//     }
+// }
+            
+// mendaftarkan selector
+// .main,
+// footer {
+//     h1,
+//     p {
+//         letter-spacing: 1px;
+//     }
+// }
+    
+// parent selector (&)
+// bisa untuk mengenerate selector awalnya
+// bisa digunakan untuk manggil sudo class
+.main {
+    .container & {
+        background-color: lightblue;
+    }
+    & &-heading {
+        font-size: 2em;
+    }
+    #{&}-paragraph { // using interpolation
+        font-size: 3em;
+    }
+    &-paragraph {
+        color: red;
+    }
+    &:hover {
+        background-color: salmon;
+    }
+}
+            
+            

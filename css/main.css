@@ -1,0 +1,20 @@
+.container .main {
+  background-color: lightblue;
+}
+
+.main .main-heading {
+  font-size: 2em;
+}
+
+.main .main-paragraph {
+  font-size: 3em;
+}
+
+.main-paragraph {
+  color: red;
+}
+
+.main:hover {
+  background-color: salmon;
+}
+/*# sourceMappingURL=main.css.map */
