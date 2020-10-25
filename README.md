@@ -40,7 +40,10 @@ alasan untuk tidak menggunakan Sass :
 - tidak untuk project kecil
 - styled components / css in js
 
-SASS or SCSS it's same....
+.SASS :
+- tidak pakai ';' dan '{}'
+.SCSS :
+- pakai ';' dan '{}'
  
 how started :
 - instalasi compiler sass ada beberapa pilihan :
