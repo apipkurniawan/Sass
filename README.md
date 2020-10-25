@@ -49,4 +49,5 @@ how started :
 
 configuration sass :
 - Preferences => Settings => Live Sass Compile => Formats => edit in settings.json => "savePath": "css"
+  untuk mengenerate ke folder css -> main.css
 

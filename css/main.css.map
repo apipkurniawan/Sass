@@ -1,8 +1,8 @@
 {
     "version": 3,
-    "mappings": "AA4BI,AAAA,UAAU,CADd,KAAK,CACY;EACT,gBAAgB,EAAE,SAAS;CAC9B;;AAHL,AAII,KAJC,CAIE,aAAQ,CAAC;EACR,SAAS,EAAE,GAAG;CACjB;;AANL,AAOI,KAPC,CAOD,eAAe,CAAA;EACX,SAAS,EAAE,GAAG;CACjB;;AACA,AAAD,eAAW,CAAC;EACR,KAAK,EAAE,GAAG;CACb;;AAZL,AAaI,KAbC,AAaA,MAAM,CAAC;EACJ,gBAAgB,EAAE,MAAM;CAC3B",
+    "mappings": "",
     "sources": [
-        "../Nesting/scss/main.scss"
+        "../Variable/scss/main.scss"
     ],
     "names": [],
     "file": "main.css"

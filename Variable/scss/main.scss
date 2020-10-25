@@ -1,0 +1,43 @@
+// CSS variable
+// menggunakan css, kemungkinan tidak support di browser lama, karena teknologi baru
+// :root {
+//     --primary-color: #f4f1de;
+//     --secondary-color: #f2cc8f;
+//     --text-color: #e07a5f;
+// }
+
+// body {
+//     background-color: var(--primary-color);
+// }
+
+
+// SASS variable
+// underscore (_) == dash (-)
+// nama variable boleh sama, walaupun value lokal dan global berbeda tetap akan dieksekusi berbeda juga
+// $primary-color : #f4f1de; // variable global
+
+// body {
+//     background-color: $primary_color;
+// }
+// p {
+//     $secondary-color : #f2cc8f; // variable lokal
+//     // variable lokal tidak bisa diakses global tapi bisa diakses oleh turunannya.
+//     $text-color: #e07a5f !global; // variable lokal yg bisa diakses secara global, syarat harus berada diatas/ synchronous
+//     color: $secondary-color;
+// }
+// h1 {
+//     color: $text-color;
+// }
+
+
+// Map ,jgn lupa pakai titik koma 'namaVariable();'
+// $alert: (
+//     'danger':red,
+//     'success': green,
+//     'warning': yellow
+// );
+
+// h1 {
+//     color: map-get($alert, 'warning');
+// }
+

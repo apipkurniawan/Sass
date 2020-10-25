@@ -25,22 +25,22 @@
 // parent selector (&)
 // bisa untuk mengenerate selector awalnya
 // bisa digunakan untuk manggil sudo class
-.main {
-    .container & {
-        background-color: lightblue;
-    }
-    & &-heading {
-        font-size: 2em;
-    }
-    #{&}-paragraph { // using interpolation
-        font-size: 3em;
-    }
-    &-paragraph {
-        color: red;
-    }
-    &:hover {
-        background-color: salmon;
-    }
-}
+// .main {
+//     .container & {
+//         background-color: lightblue;
+//     }
+//     & &-heading {
+//         font-size: 2em;
+//     }
+//     #{&}-paragraph { // using interpolation
+//         font-size: 3em;
+//     }
+//     &-paragraph {
+//         color: red;
+//     }
+//     &:hover {
+//         background-color: salmon;
+//     }
+// }
             
             
