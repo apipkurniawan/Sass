@@ -1,53 +1,53 @@
 // simple mixin
-@mixin inline-list {
-    margin:0;
-    padding: 0;
-    list-style: none;
-    li {
-        display: inline-block;
-    }
-}
+// @mixin inline-list {
+//     margin:0;
+//     padding: 0;
+//     list-style: none;
+//     li {
+//         display: inline-block;
+//     }
+// }
 
-.header ul {
-    @include inline-list();
-    li {
-        background-color: black;
-        padding: 1em;
-        a {
-            color: white;
-        }
-    }
-}
+// .header ul {
+//     @include inline-list();
+//     li {
+//         background-color: black;
+//         padding: 1em;
+//         a {
+//             color: white;
+//         }
+//     }
+// }
 
-.footer ul {
-    @include inline-list();
-    li {
-        padding: 0.4em;
-        background-color: salmon;
-        a {
-            text-decoration: none;
-        }
-    }
-}
+// .footer ul {
+//     @include inline-list();
+//     li {
+//         padding: 0.4em;
+//         background-color: salmon;
+//         a {
+//             text-decoration: none;
+//         }
+//     }
+// }
 
 
 // arguments pada mixin
-@mixin flex-box($direct: row, $space: space-around) {
-    align-items: center;
-    justify-content: $space;
-    display: flex;
-    flex-direction: $direct;
-}
-.container {
-    @include flex-box(row-reverse, space-evenly);
-    width: 600px;
-    height: 400px;
-    background-color: #eeaaee;
-    .box {
-        width: 60px;
-        height: 60px;
-        background-color: #bada55;
-        text-align: center;
-        line-height: 60px;
-    }
-}
+// @mixin flex-box($direct: row, $space: space-around) {
+//     align-items: center;
+//     justify-content: $space;
+//     display: flex;
+//     flex-direction: $direct;
+// }
+// .container {
+//     @include flex-box(row-reverse, space-evenly);
+//     width: 600px;
+//     height: 400px;
+//     background-color: #eeaaee;
+//     .box {
+//         width: 60px;
+//         height: 60px;
+//         background-color: #bada55;
+//         text-align: center;
+//         line-height: 60px;
+//     }
+// }

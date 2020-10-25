@@ -1,0 +1,18 @@
+// nama file yang diawali '_' tidak akan dicompile
+// bersifat parsial
+
+@mixin inline-list {
+    margin:0;
+    padding: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+    }
+}
+
+@mixin flex-box($direct: row, $space: space-around) {
+    align-items: center;
+    justify-content: $space;
+    display: flex;
+    flex-direction: $direct;
+}

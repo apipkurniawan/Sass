@@ -1,0 +1,25 @@
+// modules 
+// membuat code sass kita modular/mudah untuk dibaca
+// jika menggunakan @import pastikan urutannya sesuai html
+// @import , @use
+
+/**
+ * @import is not recomended
+ * karena banyak sekali kekurangan, cek di doc
+ */
+// @import 'modules/mixin';
+// @import 'modules/header';
+// @import 'modules/container';
+// @import 'modules/footer';
+/* or */
+// @import 'modules/mixin', 'modules/header', 'modules/container', 'modules/footer';
+
+
+/**
+ * @use is recomended
+ * jika ingin menggunakan @use tidak boleh menggunakan extention sass, harus install dengan cara lain
+ * mixin di panggil ditiap2 componentnya
+ */
+@use 'modules/header';
+@use 'modules/container';
+@use 'modules/footer';

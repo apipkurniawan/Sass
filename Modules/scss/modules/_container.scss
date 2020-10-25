@@ -1,0 +1,16 @@
+// ketikan menggunakan @use, pastikan panggil namanya, misal:  mixin.flex-box
+@use 'mixin';
+
+.container {
+    @include mixin.flex-box(row-reverse, space-evenly);
+    width: 600px;
+    height: 400px;
+    background-color: #eeaaee;
+    .box {
+        width: 60px;
+        height: 60px;
+        background-color: #bada55;
+        text-align: center;
+        line-height: 60px;
+    }
+}

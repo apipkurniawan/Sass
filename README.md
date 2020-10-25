@@ -47,10 +47,14 @@ alasan untuk tidak menggunakan Sass :
  
 how started :
 - instalasi compiler sass ada beberapa pilihan :
+  (aplikasi tools)
   (VSCode Extention) => Live Sass Compiler
-  (Command line) => npm install -g sass
+  (Command line) : npm install -g sass
+  jika menggunakan command line, harus buka terminal dan untuk menjalankannya menggunakan command 'sass scss/main.scss css/main.css'
+  format : sass path_main_scss path_main_css 
 
 configuration sass :
 - Preferences => Settings => Live Sass Compile => Formats => edit in settings.json => "savePath": "css"
   untuk mengenerate ke folder css -> main.css
+
 
